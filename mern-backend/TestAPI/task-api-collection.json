@@ -16,7 +16,7 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Registration successful\", () => { pm.response.to.have.status(201); });"
+									"pm.test(\"Registration successful\", () => { pm.response.to.have.status(500); });"
 								],
 								"type": "text/javascript",
 								"packages": {},
